@@ -1,0 +1,17 @@
+﻿<Window x:Class="ATopSearchEngine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ATopSearch" Height="600" Width="800">
+    <Grid>
+    	<Button Content="Search" HorizontalAlignment="Right" Margin="0,47,79,0" VerticalAlignment="Top" Width="111" Height="27" Click="Button_Click" />
+    	<TextBox Name="queryTextBox" Height="27" Margin="114,47,214,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    	<ListView Name="docListViewer" Margin="114,97,79,31.5">
+    		<ListView.View>
+    			<GridView>
+    				<GridViewColumn/>
+    			</GridView>
+    		</ListView.View>
+    	</ListView>
+        
+    </Grid>
+</Window>
